@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/wdio wdio.conf.js",
-    "appium": "./node_modules/.bin/wdio wdio.dev.conf.js --port 4723"
+    "appium": "./node_modules/.bin/wdio wdio.appium.conf.js --port 4723"
   },
   "author": "",
   "license": "ISC",
