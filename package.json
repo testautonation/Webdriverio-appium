@@ -11,13 +11,13 @@
   "license": "ISC",
   "dependencies": {
     "appium": "^1.7.2",
-    "webdriverio": "^4.9.11"
+    "webdriverio": "^4.12.0"
   },
   "devDependencies": {
     "wdio-appium-service": "^0.2.3",
     "wdio-chromedriver-service": "^0.1.2",
-    "wdio-mocha-framework": "^0.5.12",
+    "wdio-mocha-framework": "^0.5.13",
     "wdio-selenium-standalone-service": "0.0.9",
-    "wdio-spec-reporter": "^0.1.3"
+    "wdio-spec-reporter": "^0.1.4"
   }
 }
