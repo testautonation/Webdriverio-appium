@@ -5,13 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/wdio wdio.conf.js",
-    "appium": "./node_modules/.bin/wdio wdio.appium.conf.js --port 4723"
+    "appium": "./node_modules/.bin/wdio wdio.appium.conf.js --port 4723",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "appium": "^1.7.2",
-    "webdriverio": "^4.12.0"
+    "webdriverio": "^4.12.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "wdio-appium-service": "^0.2.3",
@@ -19,5 +22,6 @@
     "wdio-mocha-framework": "^0.5.13",
     "wdio-selenium-standalone-service": "0.0.9",
     "wdio-spec-reporter": "^0.1.4"
-  }
+  },
+  "snyk": true
 }
