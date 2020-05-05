@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "appium": "^1.7.2",
+    "appium": "^1.8.0",
     "webdriverio": "^4.12.0"
   },
   "devDependencies": {
