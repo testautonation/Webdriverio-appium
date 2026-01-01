@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "appium": "^1.7.2",
-    "webdriverio": "^4.12.0"
+    "appium": "^1.22.3",
+    "webdriverio": "^9.22.0"
   },
   "devDependencies": {
     "wdio-appium-service": "^0.2.3",
